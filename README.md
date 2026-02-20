@@ -24,10 +24,7 @@ Opens on `http://localhost:5173` and is accessible on your local network.
 
 ```bash
 npm run build
+npm run preview
 ```
 
-Serve the `dist/` folder with any static file server:
-
-```bash
-npx serve dist
-```
+This builds and serves the app on your local network (default port 4173).
